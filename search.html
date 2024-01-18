@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Melon_logo.png" id="favicon" />
+    <link rel="stylesheet" href="search.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="main inactive">
+        <div class="bg-main"></div>
+        <section class="search">
+          <div class="search-box">
+            <div class="introduction-text">
+              <h1>Search over 200 million songs.</h1>
+              <p>Know what you want to listen to? Just search and hit play.</p>
+            </div>
+            <div class="cancel"></div>
+            <form class="search-form">
+              <div class="query-box">
+                <input class="query-input" type="text" autocomplete="off" name="search" placeholder="e.g. 'foals', 'queen'">
+                <div id="results">
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+      <script src="search.js"></script>
+</body>
+</html>
